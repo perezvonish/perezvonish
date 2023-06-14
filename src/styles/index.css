@@ -14,7 +14,7 @@ body,
 .app-container {
     height: 100%;
     overflow-y: scroll;
-    scroll-behavior: smooth; /* Плавный скролл */
+    scroll-behavior: smooth;
 }
 
 .component {
@@ -30,7 +30,6 @@ body,
     bottom: 0;
     width: 100%;
     padding: 10px;
-    background-color: #f0f0f0;
     text-align: center;
 }
 
@@ -38,7 +37,7 @@ body,
     list-style-type: none;
     padding: 0;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
 }
 
 .component-list li {
@@ -48,9 +47,25 @@ body,
 
 .component-list li.active {
     font-weight: bold;
+    color: rgba(217, 120, 114, 1);
 }
 
+.simple-text {
+    color: rgba(201, 205, 214, 1)
+}
 
-.info-block {
+.purple-text {
+    color: rgba(208, 179, 243, 1);
+}
 
+.blue-text {
+    color: rgba(155, 216, 234, 1)
+}
+
+.green-text {
+    color: rgba(195, 221, 156, 1)
+}
+
+.red-text {
+    color: rgba(217, 120, 114, 1)
 }

@@ -1,16 +1,16 @@
 import {useState} from "react";
 
 export const Navigation = () => {
-    const [activeComponent, setActiveComponent] = useState('Info');
+    const [activeComponent, setActiveComponent] = useState('Welcome');
 
     return (
         <div className="status-panel">
             <ul className="component-list">
                 <li
-                    className={activeComponent === 'Info' ? 'active' : ''}
+                    className={activeComponent === 'Welcome' ? 'active' : ''}
                     onClick={() => setActiveComponent('Info')}
                 >
-                    {"<"}Info{">"}
+                    {"<"}Welcome{">"}
                 </li>
                 <li
                     className={activeComponent === 'About' ? 'active' : ''}
@@ -23,12 +23,6 @@ export const Navigation = () => {
                     onClick={() => setActiveComponent('Contacts')}
                 >
                     {"<"}Contacts{">"}
-                </li>
-                <li
-                    className={activeComponent === 'Navigation' ? 'active' : ''}
-                    onClick={() => setActiveComponent('Navigation')}
-                >
-                    {"<"}Navigation{">"}
                 </li>
             </ul>
         </div>

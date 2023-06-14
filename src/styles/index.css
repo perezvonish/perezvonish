@@ -1,0 +1,56 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body,
+#root {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.app-container {
+    height: 100%;
+    overflow-y: scroll;
+    scroll-behavior: smooth; /* Плавный скролл */
+}
+
+.component {
+    height: 100vh;
+    min-height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.status-panel {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: 10px;
+    background-color: #f0f0f0;
+    text-align: center;
+}
+
+.component-list {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.component-list li {
+    margin: 0 10px;
+    cursor: pointer;
+}
+
+.component-list li.active {
+    font-weight: bold;
+}
+
+
+.info-block {
+
+}

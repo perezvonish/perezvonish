@@ -1,4 +1,4 @@
-import {useEffect, useRef, useState} from "react";
+import {useState} from "react";
 
 export const Navigation = () => {
     const [activeComponent, setActiveComponent] = useState('Info');

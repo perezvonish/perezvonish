@@ -1,6 +1,6 @@
 export const About = () => {
     return (
-        <div className="component m-5" id="About">
+        <div className="component m-5 w-100%" id="About">
             <div className="relative">
                 <p className="absolute top-[-8rem] text-4xl font-bold purple-text">
                     {"<"}About{">"}

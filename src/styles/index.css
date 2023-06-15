@@ -52,9 +52,6 @@ body,
     color: rgba(217, 120, 114, 1);
 }
 
-.technologies {
-    margin: 2rem 0;
-}
 
 .list {
     display: flex;

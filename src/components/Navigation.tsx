@@ -8,7 +8,7 @@ export const Navigation = () => {
             <ul className="component-list">
                 <li
                     className={activeComponent === 'Welcome' ? 'active' : ''}
-                    onClick={() => setActiveComponent('Info')}
+                    onClick={() => setActiveComponent('Welcome')}
                 >
                     {"<"}Welcome{">"}
                 </li>

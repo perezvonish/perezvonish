@@ -52,12 +52,7 @@ body,
     color: rgba(217, 120, 114, 1);
 }
 
-
-.list {
-    display: flex;
-}
-
-.list li {
+ul li {
     padding: 0.5rem;
 }
 

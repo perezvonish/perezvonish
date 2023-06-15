@@ -1,12 +1,11 @@
 export const Skills = () => {
     return (
-        <div className="component m-5" id="Technologies">
-            <div className="relative">
-                <p className="absolute top-[-8rem] text-4xl font-bold purple-text">{"<"}Skills{">"}</p>
-                <div className="text-xl simple-text flex flex-col">
+        <div className="component flex flex-col m-5" id="Technologies">
+                <p className="text-4xl font-bold purple-text">{"<"}Skills{">"}</p>
+                <div className="text-xl simple-text flex flex-row md:flex-col p-5">
                     <div className="m-2">
                         <p className="blue-text">Backend</p>
-                        <ul className="list">
+                        <ul className="flex flex-col md:flex-row">
                             <li>Node.js</li>
                             <li>Express.js</li>
                             <li>Nest.js</li>
@@ -20,7 +19,7 @@ export const Skills = () => {
                     </div>
                     <div className="m-2">
                         <p className="green-text">Frontend</p>
-                        <ul className="list">
+                        <ul className="flex flex-col md:flex-row">
                             <li>Html</li>
                             <li>Css</li>
                             <li>Scss</li>
@@ -29,7 +28,6 @@ export const Skills = () => {
                         </ul>
                     </div>
                 </div>
-            </div>
         </div>
     )
 }

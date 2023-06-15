@@ -10,16 +10,16 @@ export const Contacts = () => {
                 {"<"}Contacts{">"}
             </p>
             <div className="contacts">
-                <a href="https://t.me/perezvonishh" target="_blank">
+                <a href="https://t.me/perezvonishh" target="_blank" rel="noreferrer">
                     <img src={Tg} alt="" width="1024px"/>
                 </a>
-                <a href="https://github.com/perezvonish" target="_blank">
+                <a href="https://github.com/perezvonish" target="_blank" rel="noreferrer">
                     <img src={Github} alt="" width="1024px"/>
                 </a>
-                <a href="https://www.linkedin.com/in/vladimir-korobenko-b8a89a253/" target="_blank">
+                <a href="https://www.linkedin.com/in/vladimir-korobenko-b8a89a253/" target="_blank" rel="noreferrer">
                     <img src={LinkedIn} alt="" width="1024px"/>
                 </a>
-                <a href="mailto:perezvladimirweb@gmail.com" target="_blank">
+                <a href="mailto:perezvladimirweb@gmail.com" target="_blank" rel="noreferrer">
                     <img src={Gmail} alt="" width="1024px"/>
                 </a>
             </div>

@@ -52,6 +52,18 @@ body,
     color: rgba(217, 120, 114, 1);
 }
 
+.technologies {
+    margin: 2rem 0;
+}
+
+.list {
+    display: flex;
+}
+
+.list li {
+    padding: 0.5rem;
+}
+
 .simple-text {
     color: rgba(201, 205, 214, 1)
 }

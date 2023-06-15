@@ -1,6 +1,7 @@
 const Tg = require("../images/tg.png")
 const Github = require("../images/github.png")
 const LinkedIn = require("../images/linkedIn.png")
+const Gmail = require("../images/gmail.png")
 
 export const Contacts = () => {
     return (
@@ -9,19 +10,19 @@ export const Contacts = () => {
                 <p className="absolute top-[-8rem] purple-text text-4xl font-bold">
                     {"<"}Contacts{">"}
                 </p>
-                <div>
-                    <span>
-                        <p>Telegram</p>
+                <div className="contacts">
+                    <a href="https://t.me/perezvonishh" target="_blank">
                         <img src={Tg} alt="" width="64px"/>
-                    </span>
-                    <span>
-                        <p>Github</p>
+                    </a>
+                    <a href="https://github.com/perezvonish" target="_blank">
                         <img src={Github} alt="" width="64px"/>
-                    </span>
-                    <span>
-                        <p>LinkedIn</p>
+                    </a>
+                    <a href="https://www.linkedin.com/in/vladimir-korobenko-b8a89a253/" target="_blank">
                         <img src={LinkedIn} alt="" width="64px"/>
-                    </span>
+                    </a>
+                    <a href="mailto:perezvladimirweb@gmail.com" target="_blank">
+                        <img src={Gmail} alt="" width="64px"/>
+                    </a>
                 </div>
             </div>
         </div>

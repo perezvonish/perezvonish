@@ -64,6 +64,19 @@ body,
     padding: 0.5rem;
 }
 
+.contacts {
+    display: flex;
+}
+
+.contacts a {
+    padding: 1rem;
+}
+
+.contacts a:hover {
+    border-radius: 1rem;
+    background-color: rgba(201, 205, 214, 1)
+}
+
 .simple-text {
     color: rgba(201, 205, 214, 1)
 }

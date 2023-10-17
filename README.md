@@ -9,7 +9,7 @@
 
 <div align="center">
     <h1>🧑‍💻 About me:</h1>
-    <h3>My name is Vladimir. I am 21 years old. Kazakhstan 🌤️</h3>
+    <h3>My name is Vladimir. I am 21 years old. Uzbekistan 🌤️</h3>
     <h3>I am a Backend NodeJs developer.</h3>
     <h3>Like. Love. Enjoy. Coding.</h3>
 </div>

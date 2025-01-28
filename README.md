@@ -2,7 +2,6 @@
 
 <header align="center">
     <h1>Hey there ヾ(＠⌒ー⌒＠)ノ</h1>
-    <img src="https://media.giphy.com/media/iIqmM5tTjmpOB9mpbn/giphy.gif">
 </header>
 
 

@@ -1,7 +1,7 @@
 
 
 <header align="center">
-    <h1>Hey there ヾ(＠⌒ー⌒＠)ノ</h1>
+    <h1>Hey there! My name is Vladimir ヾ(＠⌒ー⌒＠)ノ</h1>
 </header>
 
 

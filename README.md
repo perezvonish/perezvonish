@@ -12,7 +12,7 @@
     <h3>Like. Love. Enjoy. Coding.</h3>
 </div>
 
-<h1>❤️‍🔥: My Stats :</h1>
+<h1>❤️‍🔥 My Stats :</h1>
 
 [![GitHub Streak](http://github-readme-streak-stats.herokuapp.com?user=perezvonish&theme=holi-theme&hide_border=true&date_format=j%20M%5B%20Y%5D)](https://git.io/streak-stats)
 

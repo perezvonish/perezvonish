@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Моя страница</title>
+    <style>
+        body {
+            font-family: system-ui, -apple-system, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            background-color: #f4f4f9;
+            color: #333;
+        }
+        .container {
+            max-width: 600px;
+            padding: 2rem;
+            background: white;
+            border-radius: 12px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+            text-align: center;
+        }
+        h1 {
+            color: #2d3436;
+        }
+        p {
+            color: #636e72;
+        }
+        .button {
+            display: inline-block;
+            margin-top: 1rem;
+            padding: 10px 20px;
+            background-color: #0984e3;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background 0.3s;
+        }
+        .button:hover {
+            background-color: #74b9ff;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>Привет! 🚀</h1>
+        <p>Это простая HTML-страница, созданная для старта твоего проекта. Она уже включает базовые стили (CSS) прямо внутри файла.</p>
+        <a href="#" class="button" onclick="alert('Привет мир!')">Нажми на меня</a>
+    </div>
+
+</body>
+</html>

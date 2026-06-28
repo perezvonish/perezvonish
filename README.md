@@ -2,7 +2,7 @@
 
 **Backend Engineer · Node.js · Go**
 
-📍 Tashkent — open to **remote** and **relocation** (EU / Cyprus / Portugal / Serbia / NL / UK / UAE)
+📍 Tashkent
 📫 [me@perezvonish.com](mailto:me@perezvonish.com) · [LinkedIn](https://www.linkedin.com/in/vladimir-korobenko/)
 
 ---

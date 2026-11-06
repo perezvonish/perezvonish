@@ -44,9 +44,4 @@ I build backend systems that survive production. ~5 years with **Node.js / NestJ
  
 ---
 
-
-## Open to
-
-Senior Backend roles in **Node.js** or **Go** — remote or relocation, product companies where backend has real impact on the business.
-
 📬 **Best way to reach me:** [me@perezvonish.com](mailto:me@perezvonish.com)
